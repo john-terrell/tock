@@ -1,0 +1,8 @@
+[package]
+name = "stm32f407"
+version = "0.1.0"
+authors = ["John W. Terrell <john.terrell@gmail.com>"]
+
+[dependencies]
+cortexm4 = { path = "../../arch/cortex-m4" }
+kernel = { path = "../../kernel" }
